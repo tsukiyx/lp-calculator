@@ -1,6 +1,6 @@
 const fetchGameTag = document.querySelector("button");
 const resultSection = document.querySelector("#result-section");
-const apiKey = import.meta.env.VITE_RIOT_API_KEY;
+const apiKey = "RGAPI-d448b577-64b5-463b-98ce-ff37452190f0";
 const divisions = ["IV", "III", "II", "I"];
 const tiers = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND"];
 const probabilidades = [0.55, 0.6, 0.65, 0.7];
