@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/style.css" />
+        <script src="./src/script.js" type="module"></script>
+        <title>LP Calculator - ryo</title>
+    </head>
+    <body>
+        <main>
+            <h1>BECAUSE LOSING 15 LP <span>HURTS</span> LESS WHEN YOU <span>CALCULATE IT</span> FIRST</h1>
+            <section id="fetch-section">
+                <div>
+                    <input type="text" name="gameTaglol" id="gameTaglol" placeholder="Something like... Faker#KR1" />
+                    <select name="region" id="region">
+                        <option value="BR1">BR</option>
+                        <option value="EUN1">EUN</option>
+                        <option value="EUW1">EUW</option>
+                        <option value="JP1">JP</option>
+                        <option value="KR">KR</option>
+                        <option value="LA1">LAN</option>
+                        <option value="LA2">LAS</option>
+                        <option value="ME1">ME</option>
+                        <option value="NA1">NA</option>
+                        <option value="OC1">OC</option>
+                        <option value="RU">RU</option>
+                        <option value="SG2">SG</option>
+                        <option value="TR1">TR</option>
+                        <option value="TW2">TW</option>
+                        <option value="VN2">VN</option>
+                    </select>
+                </div>
+                <button type="submit">Fetch ur rank!</button>
+            </section>
+            <section id="result-section">
+                <!--<article id="info-game">
+                    <div id="select-tier">
+                        <select name="tier" id="tier">
+                            <option value="iron">Hierro</option>
+                            <option value="bronze">Bronce</option>
+                            <option value="silver">Plata</option>
+                            <option value="gold">Oro</option>
+                            <option value="platinum">Platino</option>
+                            <option value="diamond">Diamante</option>
+                            <option value="master">Maestro</option>
+                        </select>
+                        <input type="text" placeholder="LP per Win" />
+                        <input type="text" placeholder="LP per Lose" />
+                        <button id="btn-act">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="white"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M12 2l10 10-10 10-1.41-1.41L19.17 13H2v-2h17.17l-8.58-8.59L12 2z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <h2 id="games">4<span>WINS NEEDED</span></h2>
+                    <div id="results">
+                        <span>55% win → 120 games, 66W/54L</span>
+                        <span>55% win → 120 games, 66W/54L</span>
+                        <span>55% win → 120 games, 66W/54L</span>
+                        <span>55% win → 120 games, 66W/54L</span>
+                    </div>
+                </article>-->
+            </section>
+        </main>
+    </body>
+</html>
